@@ -1,0 +1,15 @@
+language: c
+
+compiler: 
+    - gcc
+
+before_script:
+    - sudo apt-get update -qq
+ 
+script:
+    - make 
+    - make ofast
+
+notifications:
+    email:
+        - parth.kolekar@students.iiit.ac.in
