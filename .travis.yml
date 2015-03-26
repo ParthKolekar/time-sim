@@ -3,9 +3,6 @@ language: c
 compiler: 
     - gcc
 
-before_script:
-    - sudo apt-get update -qq
- 
 script:
     - make 
     - make ofast
